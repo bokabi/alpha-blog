@@ -10,6 +10,8 @@ root 'pages#home'
 
 get 'about', to: 'pages#about'
 
+  resources :articles   # Give us a new article path, can create, edit, delete articles 
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
