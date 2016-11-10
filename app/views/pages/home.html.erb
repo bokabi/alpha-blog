@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-US"> <! Language is declared with the lang attribute. It's importanat for accessibility applications (screen readers) and search engines>
-<head>
-	<title>My First HTML</title>
-	<meta charset="utf-8">
-	<style>
-		a:link	{color:green; background-color: transparent; text-decoration: none}
-		a:visited	{color: pink;	background-color: transparent; text-decoration: none}
-		a:hover	{color: red; background-color: transparent; text-decoration: underline}
-		a:active {color: yellow; background-color: transparent; text-decoration: underline}
-	</style>
-</head>
-<body style="background-color:powderblue;">
-<h1> This is the home page of my blog app</h1>
-<%= link_to 'Alpha Blog', articles_path %> | <%= link_to 'About', about_path %>
 
 
-</body>
-</html>
+<!-- <h1> This is the home page of my blog app</h1>  -->
+
+<div class="center jumbotron">
+  <h1>ALPHA BLOG</h1>
+<%= link_to 'Sign up now', "#", class: "btn btn-danger btn-lg btn-xlarge" %>
+</div>
+
